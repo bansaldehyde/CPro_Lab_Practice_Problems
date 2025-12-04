@@ -22,7 +22,7 @@ int main() {
     int n;
     scanf("%d", &n);
     
-    char str[17];  // max 2*8 + 1 for null terminator
+    char str[25];
     generate(str, 0, 0, 0, n);
     
     return 0;
